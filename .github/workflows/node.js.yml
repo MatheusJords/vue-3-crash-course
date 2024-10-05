@@ -13,9 +13,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: 'vue-3-crash-course'
         
     strategy:
       matrix:
